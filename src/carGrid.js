@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import car1 from '../public/car1.jpg'
 import car2 from '../public/car2.jpeg'
 import car3 from '../public/car3.jpg'
-
+// toDo  create card grid components, sizes and css of card grid components, make some kind of api call somewhere. 
 class CarGrid extends Component {
   render() {
     return (
