@@ -9,33 +9,52 @@ class CarGrid extends Component {
       <div className='car-grid'>
 
         <div className='row'>
-          <img src={car1} className="car" alt="logo" />
-          <img src={car2} className="car" alt="logo" />
-          <img src={car3} className="car" alt="logo" />
-        </div>
-
-        <div className='row'>
           <div className='car-card'>
             <img src={car1} className="car" alt="logo" />
           </div>
           <div className='car-card'>
-            <img src={car1} className="car" alt="logo" />
+            <img src={car2} className="car" alt="logo" />
           </div>
             <div className='car-card'>
+            <img src={car3} className="car" alt="logo" />
+          </div>
+        </div>
+
+
+        <div className='row'>
+          <div className='car-card'>
             <img src={car1} className="car" alt="logo" />
+          </div>
+          <div className='car-card'>
+            <img src={car2} className="car" alt="logo" />
+          </div>
+            <div className='car-card'>
+            <img src={car3} className="car" alt="logo" />
           </div>
         </div>
 
         <div className='row'>
-          <img src={car1} className="car" alt="logo" />
-          <img src={car2} className="car" alt="logo" />
-          <img src={car3} className="car" alt="logo" />
+          <div className='car-card'>
+            <img src={car1} className="car" alt="logo" />
+          </div>
+          <div className='car-card'>
+            <img src={car2} className="car" alt="logo" />
+          </div>
+            <div className='car-card'>
+            <img src={car3} className="car" alt="logo" />
+          </div>
         </div>
 
         <div className='row'>
-          <img src={car1} className="car" alt="logo" />
-          <img src={car2} className="car" alt="logo" />
-          <img src={car3} className="car" alt="logo" />
+          <div className='car-card'>
+            <img src={car1} className="car" alt="logo" />
+          </div>
+          <div className='car-card'>
+            <img src={car2} className="car" alt="logo" />
+          </div>
+            <div className='car-card'>
+            <img src={car3} className="car" alt="logo" />
+          </div>
         </div>
       </div>
     )
