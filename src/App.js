@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CarGrid from './carGrid'
 
 class App extends Component {
   render() {
@@ -16,6 +17,8 @@ class App extends Component {
           </div>
           <img src={logo} className="App-logo" alt="logo" /> 
         </div>
+
+      <CarGrid/>
       </div>
         
      

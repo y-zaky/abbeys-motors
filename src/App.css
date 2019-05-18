@@ -28,6 +28,35 @@
   font-size: large;
 }
 
+.car-grid {
+  margin: 0 auto;
+  background-color: #eaeaea;
+}
+
+.row { 
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 1;
+  
+  margin: 10px;
+  border: 1px solid blue;
+  width: 400px;
+  height: 400px;
+
+}
+
+.car {
+  width: 200px;
+  height: 200px;
+  
+}
+
 @keyframes App-logo-flip {
   from { transform: rotateY(0deg); }
   to { transform: rotateY(360deg); }
