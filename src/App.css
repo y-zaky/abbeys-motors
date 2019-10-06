@@ -1,5 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  background-color: #F2F2F2;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -58,6 +67,8 @@
 
 
 
+
+
 .navigationImage-container{
   width:60px;
   height:60px;
@@ -72,6 +83,45 @@
 .navigationImage:hover{
   transition: all .2s ease-in-out; 
   transform: scale(1.3);
+}
+
+.navigation--open{
+  background-color: #0A7ABF;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  
+}
+
+.navigation--open li {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.navigation--open li:hover, .navigation--open li:focus {
+  color: #f1f1f1;
+}
+
+.navigation--open  .navigation--button-close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+ 
 }
 
 
@@ -91,5 +141,14 @@ h2 {
 @media screen and (min-width: 1000px) {
   h2 {
     font-size: 27px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .navigation--open li {font-size: 20px}
+  .navigation--open .navigation--button-close {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
   }
 }
